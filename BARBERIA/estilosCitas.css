@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #575353;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.card .contenedorCard {
+    background-color: #3a3a3a;
+    width: 260px;
+    height: 570px;
+    padding: 50px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.card .contenedorCard h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    font-size: 35px;
+}
+
+.card .contenedorCard label {
+    color: #929292;
+    font-size: 15px;
+    margin-left: 3px;
+}
+
+.card .contenedorCard input {
+    background-color: #fff;
+    border: 0;
+    padding: 14px;
+    width: 230px;
+    border-radius: 14px;
+    outline: none;
+}
+
+.card .contenedorCard button {
+    background-color: #fa741b;
+    color: #fff;
+    padding: 15px;
+    border: 0;
+    width: 144px;
+    border-radius: 14px;
+    margin-left: 3px;
+}
+
+.card .contenedorCard button:hover {
+    cursor: pointer;
+    background-color: #e7630b;
+    transition: 0.5s;
+}
+
+.card .contenedorCard a {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    margin: 9px;
+    border: 0;
+    border-radius: 14px;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.card .contenedorCard p {
+    font-size: 13px;
+    color: #caad06;
+    margin-left: 3px;
+}
+

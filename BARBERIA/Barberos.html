@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosBarberos.css">
+    <title>Barberos Especializados</title>
+</head>
+<body>
+
+    <div class="tituloBarberos">
+        <h1><span>BARBEROS </span>ESPECIALIZADOS</h1>
+        <hr style="width: 230px;">
+    </div>
+    <br>
+    <div class="container">
+        
+        <div class="flecha1">
+            <ion-icon class="arrow" name="arrow-back-outline" onclick="anteriorCard()"></ion-icon>
+        </div>
+    
+        <div class="cardHorizontal" id="card">
+          <div class="contenidoCardHorizontal">
+            <div class="imagenBarbero1">
+              <img id="imagen" src="images/fotoBarber.jpg" alt="Barbero">
+            </div>
+            <div class="informacionCard1">
+              <h1 id="titulo">Barber 1</h1>
+              <p id="descripcion">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate harum inventore laborum commodi delectus officia accusamus asperiores earum, eum natus?
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="flecha2">
+            <ion-icon class="arrow" name="arrow-forward-outline" onclick="siguienteCard()"></ion-icon>
+        </div>
+      </div>
+
+      <!-- Enlace para regresar al index -->
+    <div class="btnSalir">
+        <a href="index.html">Regresar</a>
+    </div>
+
+    <script src="Funciones JS/Barberos.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
